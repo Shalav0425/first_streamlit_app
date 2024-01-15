@@ -43,7 +43,7 @@ try:
 
 except URLERROR as e:
   strealit.error()
-#streamlit.stop()
+streamlit.stop()
 
 streamlit.header("The fruit load list contains:")
 #Snowflake related functions
